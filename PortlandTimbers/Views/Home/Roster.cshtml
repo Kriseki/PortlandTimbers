@@ -1,0 +1,23 @@
+﻿@using PortlandTimbers.Models
+@model List<Player>
+
+<h2>Roster</h2>
+
+@foreach (var players in Model)
+{
+    <div class="col-lg-4">
+        <div class="row no-gutters m-3">
+
+            <div class="card mx-auto shadow">
+                <div class="card-body">
+
+                    <h5 class="card-title">@players.LastName, @players.FirstName</h5>
+                    <h6 class="card-subtitle">@players.Nationality</h6>
+                    <p class="card-text">@players.Position | @players.Number</p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+}

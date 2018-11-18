@@ -1,0 +1,61 @@
+﻿body {
+    background-image: url("https://stmed.net/sites/default/files/portland-timbers-wallpapers-31311-3106069.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    float: left;
+}
+
+.main {
+    margin-top: 190px;
+    margin-left: 50px;
+    color: #004812;
+    float: left;
+}
+
+footer {
+    margin-top: 640px;
+    text-align: center;
+    margin-left: 600px;
+
+}
+
+ Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.card-body {
+    border: solid 1px #004812;
+    position: center;
+    text-align: right;
+    margin: 5px;
+    width: 60%;
+    background-image: url(../Content/playerbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-left: 55px;
+    color: #004812;
+    padding-right: 5px;
+}
+
+
+
+.navbar {
+    background-color: #004812;
+    color: white;
+}
+
+.btn {
+    background-color: #004812;
+    color: #FECC0C;
+
+}
+
+.btn:hover {
+    background-color: #8ea253;
+}
